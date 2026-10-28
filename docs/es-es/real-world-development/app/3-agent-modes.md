@@ -3,13 +3,13 @@ title: "Lección 3 - Modos de agente: Plan y Autopilot"
 description: "Explora los modos de agente: utiliza Plan para acordar un enfoque, Autopilot para crear el filtrado a partir de una incidencia e Interactive para revisar y verificar el resultado."
 authors:
   - geektrainer
-lastUpdated: 2026-10-05
+lastUpdated: 2026-10-22
 ---
 
 Empezamos añadiendo una pequeña funcionalidad al proyecto. Sin embargo, los cambios más amplios requieren un proceso más sólido. Por suerte, la aplicación GitHub Copilot está diseñada para adaptarse al flujo existente de una organización y garantizar que creamos lo adecuado de la forma correcta. Esta es la primera de varias lecciones en las que seguirás un proceso de desarrollo habitual dirigido por agentes: partirás de una incidencia para generar una funcionalidad, comprobarás que el código es válido y que la funcionalidad se comporta como se espera y, finalmente, la combinarás correctamente con el proyecto.
 
 > [!NOTE]
-> Utilizarás la misma sesión durante todo el flujo de la funcionalidad. Normalmente usarías sesiones o PR distintas para los diferentes tipos de archivo, pero tomaremos un atajo para centrarnos en los conceptos principales.
+> Utilizarás la misma sesión durante todo el flujo de la funcionalidad. Normalmente usarías sesiones o solicitudes de incorporación de cambios distintas para los diferentes tipos de archivo, pero tomaremos un atajo para centrarnos en los conceptos principales.
 
 En esta lección:
 
@@ -19,7 +19,7 @@ En esta lección:
 - revisarás el código.
 - validarás manualmente la funcionalidad en un lienzo de navegador.
 
-Mientras continúas con esta funcionalidad, actualizarás las instrucciones del repositorio, personalizarás la habilidad quality-checks existente, añadirás validación mediante MCP, crearás un agente QA y abrirás la PR de la funcionalidad.
+Mientras continúas con esta funcionalidad, actualizarás las instrucciones del repositorio, personalizarás la habilidad `quality-checks` existente, añadirás validación mediante MCP, crearás un agente QA y abrirás la solicitud de incorporación de cambios de la funcionalidad.
 
 ## Escenario
 
@@ -110,6 +110,10 @@ El código parece correcto, pero ¿se ejecuta? Iniciemos la aplicación como ant
     ```plaintext
     Stop the dev server and close the browser canvas.
     ```
+
+## Conserva esta sesión para las lecciones siguientes
+
+Todavía no crees ni combines la PR del filtrado. Conserva esta sesión, el árbol de trabajo y la rama para las lecciones 4 a 8. En las siguientes lecciones aplicarás instrucciones personalizadas al código de filtrado y añadirás mejoras de habilidades y QA antes de crear y combinar la PR conjunta. Puedes dejar la sesión inactiva después de detener el servidor de desarrollo y volver a ella más adelante.
 
 ## Resumen y pasos siguientes
 
